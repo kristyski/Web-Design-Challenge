@@ -9,6 +9,14 @@
 
     <meta name="description" content="Source code generated using layoutit.com">
     <meta name="author" content="LayoutIt!">
+    
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
   </head>
 
@@ -17,9 +25,77 @@
   </header>
 
   <body>
-    <p>
-        some text here
-    </p>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="page-header">
+          <h5 ALIGN="left">Latitude</h5></br>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown ml-md-auto">
+            <a class="nav-link dropdown-toggle" style=color:black href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Plots</a>
+             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="fig1.html">Max Temp</a> <a class="dropdown-item" href="fig2.html">Humidity</a> <a class="dropdown-item" href="fig3.html">Cloudiness</a> <a class="dropdown-item" href="fig4.html">Wind Speed</a>
+               <div class="dropdown-divider">
+               </div> <a class="dropdown-item" href="#">Separated link</a>
+             </div>
+           </li>
+           <li class="nav-item">
+            <a class="nav-link" style=color:black href="comparison.html">Comparison</a>
+           </li>
+          <li class="nav-item">
+            <a class="nav-link" style=color:black href="data.html">Data</a>
+          </li>
+          
+        </ul>
+      <div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 style=color:teal> Comparison: Latitude vs. X</h2>
+          <p>
+            Click any plot to get an in-depth analysis.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <p style=color:teal class="text-center">
+            vs. Max Temperature
+          </p>
+          <a href="fig1.html"><img width="500" alt="Fig1" src="assets/Fig1.png"></img></a>
+        </div>
+        <div class="col-md-6">
+          <p style=color:teal class="text-center">
+            vs. Humidity
+          </p>
+          <a href="fig2.html"><img width="500" alt="Fig2" src="assets/Fig2.png"></img></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <p style=color:teal class="text-center">
+            vs. Cloudiness
+          </p>
+          <a href="fig3.html"><img width="500" alt="Fig3" src="assets/Fig3.png"></img></a>
+        </div>
+        <div class="col-md-6">
+          <p style=color:teal class="text-center">
+            vs. Wind Speed
+          </p>
+          <a href="fig4.html"><img width="500" alt="Fig4" src="assets/Fig4.png"></img></a>
+        </div>
+      </div>
+    </div>
 
   </body>
   </html>
+
+
+
